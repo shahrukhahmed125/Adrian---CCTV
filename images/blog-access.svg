@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f5fb"/><stop offset="1" stop-color="#e4ebfc"/></linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#c4d2fa"/></pattern>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#dots)" opacity=".8"/>
+  <rect x="404" y="40" width="156" height="300" rx="10" fill="#ffffff" stroke="#0a1433" stroke-width="2.6"/>
+  <rect x="420" y="78" width="124" height="262" fill="#dfe7fa" stroke="#0a1433" stroke-width="2.2"/>
+  <path d="M436 150l52-52M436 200l80-80" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <rect x="440" y="48" width="84" height="20" rx="5" fill="#0a1433"/>
+  <circle cx="512" cy="58" r="3.4" fill="#2f5bea"/>
+  <rect x="530" y="180" width="8" height="60" rx="4" fill="#0a1433"/>
+  <rect x="300" y="96" width="76" height="138" rx="18" fill="#0a1433"/>
+  <rect x="310" y="106" width="56" height="30" rx="9" fill="#16255f"/>
+  <circle cx="356" cy="121" r="4" fill="#2f5bea"/>
+  <g fill="#8fa8f5">
+    <circle cx="320" cy="156" r="5.2"/><circle cx="338" cy="156" r="5.2"/><circle cx="356" cy="156" r="5.2"/>
+    <circle cx="320" cy="175" r="5.2"/><circle cx="338" cy="175" r="5.2"/><circle cx="356" cy="175" r="5.2"/>
+    <circle cx="320" cy="194" r="5.2"/><circle cx="338" cy="194" r="5.2"/><circle cx="356" cy="194" r="5.2"/>
+    <circle cx="320" cy="213" r="5.2"/><circle cx="338" cy="213" r="5.2"/><circle cx="356" cy="213" r="5.2"/>
+  </g>
+  <g fill="none" stroke="#2f5bea" stroke-width="3.2" stroke-linecap="round">
+    <path d="M214 140a34 34 0 0 1 0 50" opacity=".9"/>
+    <path d="M232 122a60 60 0 0 1 0 86" opacity=".6"/>
+    <path d="M250 104a86 86 0 0 1 0 122" opacity=".32"/>
+  </g>
+  <g transform="rotate(-18 150 166)">
+    <path d="M150 104c26 0 44 20 44 46 0 34-28 60-44 72-16-12-44-38-44-72 0-26 18-46 44-46Z" fill="#1546b5" stroke="#0a1433" stroke-width="2.6" stroke-linejoin="round"/>
+    <circle cx="150" cy="128" r="10" fill="#f2f5fb" stroke="#0a1433" stroke-width="2.4"/>
+    <circle cx="150" cy="168" r="16" fill="none" stroke="#8fa8f5" stroke-width="2.6"/>
+    <circle cx="150" cy="168" r="6" fill="#8fa8f5"/>
+    <path d="M150 118c-12-18-34-28-58-24" fill="none" stroke="#0a1433" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <path d="M0 340h640" stroke="#c4d2fa" stroke-width="2"/>
+</svg>

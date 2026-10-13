@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 360" width="480" height="360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e6eefd"/><stop offset="1" stop-color="#f7f9fe"/></linearGradient>
+    <radialGradient id="coneR" cx="372" cy="170" r="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2f5bea" stop-opacity=".32"/><stop offset="1" stop-color="#2f5bea" stop-opacity="0"/></radialGradient>
+    <radialGradient id="coneL" cx="118" cy="170" r="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2f5bea" stop-opacity=".32"/><stop offset="1" stop-color="#2f5bea" stop-opacity="0"/></radialGradient>
+    <symbol id="cam" viewBox="0 0 44 26" overflow="visible">
+      <rect x="0" y="2" width="6" height="15" rx="2" fill="#ffffff" stroke="#0a1433" stroke-width="1.8"/>
+      <path d="M6 9.5h6" stroke="#0a1433" stroke-width="3"/>
+      <rect x="10" y="3" width="28" height="13" rx="5" fill="#ffffff" stroke="#0a1433" stroke-width="1.8"/>
+      <path d="M10 3.6h30" stroke="#0a1433" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="36" cy="9.5" r="4.6" fill="#0a1433"/>
+      <circle cx="36" cy="9.5" r="2" fill="#2f5bea"/>
+    </symbol>
+  </defs>
+  <rect width="480" height="360" fill="url(#sky)"/>
+  <path d="M0 292h480v68H0z" fill="#e4ebfc"/>
+  <path d="M160 292h100l26 68H120Z" fill="#d3ddf6"/>
+  <path d="M372 170 480 226v134H418Z" fill="url(#coneR)"/>
+  <path d="M118 170 0 226v134h70Z" fill="url(#coneL)"/>
+  <path d="M0 292h480" stroke="#c4d2fa" stroke-width="2"/>
+  <path d="M290 86h20v40h-20z" fill="#c4d2fa" stroke="#0a1433" stroke-width="2.4"/>
+  <path d="M150 140h190v152H150z" fill="#ffffff" stroke="#0a1433" stroke-width="2.4"/>
+  <path d="M134 143 245 74l111 69Z" fill="#c4d2fa" stroke="#0a1433" stroke-width="2.4" stroke-linejoin="round"/>
+  <g fill="#dfe7fa" stroke="#0a1433" stroke-width="2">
+    <path d="M170 160h50v40h-50zM270 160h50v40h-50zM170 226h60v40h-60z"/>
+  </g>
+  <path d="M195 160v40M295 160v40M200 226v40M170 246h60" stroke="#0a1433" stroke-width="1.6"/>
+  <path d="M288 222h38v70h-38z" fill="#1546b5" stroke="#0a1433" stroke-width="2.4"/>
+  <circle cx="318" cy="258" r="2.4" fill="#ffffff"/>
+  <path d="M282 216h50" stroke="#0a1433" stroke-width="3" stroke-linecap="round"/>
+  <g>
+    <path d="M178 262c4-12 10-16 22-16h22c12 0 18 4 22 16" fill="#dfe7fa" stroke="#0a1433" stroke-width="2.2" stroke-linejoin="round"/>
+    <rect x="166" y="262" width="90" height="32" rx="11" fill="#ffffff" stroke="#0a1433" stroke-width="2.2"/>
+    <circle cx="182" cy="277" r="5" fill="#2f5bea"/>
+    <circle cx="240" cy="277" r="5" fill="#2f5bea"/>
+    <path d="M198 284h26" stroke="#0a1433" stroke-width="2" stroke-linecap="round"/>
+    <path d="M172 294h14v8h-14zM236 294h14v8h-14z" fill="#0a1433"/>
+  </g>
+  <use xlink:href="#cam" href="#cam" x="338" y="140" width="44" height="26" transform="rotate(24 338 150)"/>
+  <g transform="translate(152 150) scale(-1 1) rotate(24)"><use xlink:href="#cam" href="#cam" x="0" y="-10" width="44" height="26"/></g>
+  <g fill="#c4d2fa" stroke="#0a1433" stroke-width="2">
+    <circle cx="372" cy="276" r="16"/><circle cx="398" cy="270" r="22"/><circle cx="426" cy="280" r="14"/>
+  </g>
+  <path d="M20 262v30M44 262v30M68 262v30M92 262v30M14 270h86M14 282h86" stroke="#0a1433" stroke-width="2" stroke-linecap="round"/>
+</svg>

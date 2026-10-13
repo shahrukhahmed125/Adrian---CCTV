@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300">
+  <defs>
+    <linearGradient id="glassDoor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3fd"/>
+      <stop offset="1" stop-color="#d7e1f8"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 286h560" stroke="#d9e0ee" stroke-width="2"/>
+  <rect x="340" y="16" width="196" height="270" rx="6" fill="#ffffff" stroke="#0a1433" stroke-width="2.6"/>
+  <rect x="354" y="54" width="80" height="232" fill="url(#glassDoor)" stroke="#0a1433" stroke-width="2.2"/>
+  <rect x="442" y="54" width="80" height="232" fill="url(#glassDoor)" stroke="#0a1433" stroke-width="2.2"/>
+  <path d="M370 120l40-40M370 160l56-56M454 140l50-50M454 180l60-60" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <rect x="424" y="150" width="6" height="56" rx="3" fill="#0a1433"/>
+  <rect x="446" y="150" width="6" height="56" rx="3" fill="#0a1433"/>
+  <rect x="380" y="24" width="116" height="22" rx="5" fill="#0a1433"/>
+  <circle cx="484" cy="35" r="3.4" fill="#2f5bea"/>
+  <rect x="246" y="86" width="64" height="116" rx="16" fill="#0a1433"/>
+  <rect x="254" y="94" width="48" height="26" rx="8" fill="#16255f"/>
+  <circle cx="294" cy="107" r="3.4" fill="#2f5bea"/>
+  <g fill="#8fa8f5">
+    <circle cx="263" cy="136" r="4.4"/><circle cx="278" cy="136" r="4.4"/><circle cx="293" cy="136" r="4.4"/>
+    <circle cx="263" cy="152" r="4.4"/><circle cx="278" cy="152" r="4.4"/><circle cx="293" cy="152" r="4.4"/>
+    <circle cx="263" cy="168" r="4.4"/><circle cx="278" cy="168" r="4.4"/><circle cx="293" cy="168" r="4.4"/>
+    <circle cx="263" cy="184" r="4.4"/><circle cx="278" cy="184" r="4.4"/><circle cx="293" cy="184" r="4.4"/>
+  </g>
+  <g fill="none" stroke="#2f5bea" stroke-width="3" stroke-linecap="round">
+    <path d="M168 128a30 30 0 0 1 0 42" opacity=".9"/>
+    <path d="M184 114a52 52 0 0 1 0 70" opacity=".6"/>
+    <path d="M200 100a74 74 0 0 1 0 98" opacity=".32"/>
+  </g>
+  <g transform="rotate(-18 112 150)">
+    <path d="M112 96c22 0 38 18 38 40 0 30-24 52-38 62-14-10-38-32-38-62 0-22 16-40 38-40Z" fill="#1546b5" stroke="#0a1433" stroke-width="2.6" stroke-linejoin="round"/>
+    <circle cx="112" cy="118" r="9" fill="#ffffff" stroke="#0a1433" stroke-width="2.4"/>
+    <circle cx="112" cy="152" r="14" fill="none" stroke="#8fa8f5" stroke-width="2.4"/>
+    <circle cx="112" cy="152" r="5" fill="#8fa8f5"/>
+    <path d="M112 109c-10-14-28-22-46-20" fill="none" stroke="#0a1433" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <g fill="#c4d2fa">
+    <circle cx="30" cy="40" r="2"/><circle cx="54" cy="40" r="2"/><circle cx="78" cy="40" r="2"/><circle cx="102" cy="40" r="2"/>
+    <circle cx="30" cy="64" r="2"/><circle cx="54" cy="64" r="2"/><circle cx="78" cy="64" r="2"/>
+    <circle cx="30" cy="88" r="2"/><circle cx="54" cy="88" r="2"/>
+    <circle cx="30" cy="112" r="2"/>
+  </g>
+</svg>

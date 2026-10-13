@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f5fb"/><stop offset="1" stop-color="#e4ebfc"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#d9e0ee" stroke-width="1"/></pattern>
+    <radialGradient id="glass" cx=".38" cy=".35" r=".7"><stop offset="0" stop-color="#5f84f0"/><stop offset=".55" stop-color="#1d2f6b"/><stop offset="1" stop-color="#0a1433"/></radialGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <rect width="640" height="400" fill="url(#grid)"/>
+  <g fill="#c4d2fa"><path d="M20 20h2v10h-2zM20 20h10v2H20zM618 20h2v10h-2zM610 20h10v2h-10zM20 370h2v10h-2zM20 378h10v2H20zM618 370h2v10h-2zM610 378h10v2h-10z"/></g>
+  <g transform="translate(70 70)">
+    <rect x="0" y="22" width="150" height="56" rx="22" fill="#ffffff" stroke="#0a1433" stroke-width="2.4"/>
+    <path d="M-6 26a10 10 0 0 1 10-10h146a10 10 0 0 1 10 10v4H-6Z" fill="#e4ebfc" stroke="#0a1433" stroke-width="2.4" stroke-linejoin="round"/>
+    <rect x="16" y="58" width="80" height="5" rx="2.5" fill="#2f5bea"/>
+    <circle cx="146" cy="50" r="26" fill="#0a1433"/>
+    <circle cx="146" cy="50" r="13" fill="url(#glass)"/>
+    <circle cx="141" cy="45" r="3.6" fill="#ffffff" opacity=".85"/>
+  </g>
+  <g transform="translate(330 56)">
+    <path d="M36 0h88l22 22v74a20 20 0 0 1-20 20H34a20 20 0 0 1-20-20V22Z" fill="#ffffff" stroke="#0a1433" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M14 76h132v20a20 20 0 0 1-20 20H34a20 20 0 0 1-20-20Z" fill="#2f5bea" stroke="#0a1433" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M48 34h64" stroke="#0a2f9e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M56 50h48" stroke="#0a1433" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(90 214)">
+    <rect width="70" height="120" rx="18" fill="#0a1433"/>
+    <rect x="9" y="9" width="52" height="26" rx="8" fill="#16255f"/>
+    <circle cx="51" cy="22" r="3.6" fill="#2f5bea"/>
+    <g fill="#8fa8f5"><circle cx="19" cy="52" r="4.6"/><circle cx="35" cy="52" r="4.6"/><circle cx="51" cy="52" r="4.6"/><circle cx="19" cy="69" r="4.6"/><circle cx="35" cy="69" r="4.6"/><circle cx="51" cy="69" r="4.6"/><circle cx="19" cy="86" r="4.6"/><circle cx="35" cy="86" r="4.6"/><circle cx="51" cy="86" r="4.6"/><circle cx="19" cy="103" r="4.6"/><circle cx="35" cy="103" r="4.6"/><circle cx="51" cy="103" r="4.6"/></g>
+  </g>
+  <g transform="translate(240 222)">
+    <rect width="48" height="112" rx="22" fill="#0a1433"/>
+    <circle cx="24" cy="30" r="12" fill="#050b22"/>
+    <circle cx="24" cy="30" r="7" fill="url(#glass)"/>
+    <circle cx="24" cy="80" r="12" fill="#1546b5" stroke="#8fa8f5" stroke-width="2.6"/>
+  </g>
+  <g transform="translate(360 236)">
+    <path d="M40 0c22 0 38 18 38 40 0 30-24 52-38 62C26 92 2 70 2 40 2 18 18 0 40 0Z" fill="#1546b5" stroke="#0a1433" stroke-width="2.4" stroke-linejoin="round"/>
+    <circle cx="40" cy="22" r="8" fill="#f2f5fb" stroke="#0a1433" stroke-width="2.2"/>
+    <circle cx="40" cy="56" r="12" fill="none" stroke="#8fa8f5" stroke-width="2.4"/>
+  </g>
+  <g transform="translate(488 214)">
+    <circle cx="50" cy="56" r="52" fill="#ffffff" stroke="#0a1433" stroke-width="2.4"/>
+    <circle cx="50" cy="56" r="34" fill="none" stroke="#2f5bea" stroke-width="10"/>
+    <circle cx="50" cy="56" r="14" fill="#e4ebfc" stroke="#0a1433" stroke-width="2.2"/>
+  </g>
+  <g transform="translate(530 70)">
+    <path d="M0 0h20v80H0z" fill="#ffffff" stroke="#0a1433" stroke-width="2.2"/>
+    <path d="M10 80v40" stroke="#0a1433" stroke-width="5" stroke-linecap="round"/>
+    <path d="M4 16h12M4 32h12M4 48h12M4 64h12" stroke="#c4d2fa" stroke-width="2"/>
+  </g>
+</svg>
